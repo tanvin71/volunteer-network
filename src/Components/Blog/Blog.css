@@ -1,0 +1,10 @@
+input {
+    width: 90%;
+    border: none;
+    margin: 20px 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.regis {
+    width: 100%;
+}

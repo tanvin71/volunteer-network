@@ -1,0 +1,13 @@
+.task  {
+    width: 80%;
+    margin:  auto;
+}
+.task-img {
+    height: 300px;
+}
+.card {
+    border-radius: 10px;
+}
+h4 {
+    border-radius: 5px;
+}

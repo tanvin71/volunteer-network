@@ -1,0 +1,18 @@
+.nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img {
+    height: 50px;
+}
+nav {
+    float: left;
+}
+a {
+    margin: 0 10px;
+}
+a:hover {
+    text-decoration: none;
+}
