@@ -6,6 +6,7 @@
 </br>
 
 ####  I use react, mongodb, express, firebase.
-#### It's special because it has payment method.
+#### It has admin panel where admin change volunteer events.
+#### In this app user has to be log in through firebase.
 
 #### [`LIVE`](https://volunteer-network-ac037.firebaseapp.com)
