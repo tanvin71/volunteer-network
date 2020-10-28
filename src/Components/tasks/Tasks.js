@@ -6,6 +6,7 @@ import './Tasks.css';
 
 const Tasks = (props) => {
     const {img, name,id }  = props.event;
+    console.log(props.randomColor)
     
     const  [eventName, setEventName] = useContext(NameContext)
     
@@ -16,7 +17,7 @@ const Tasks = (props) => {
             <div className="col-md-3 mt-4 task" onClick={()=> setEventName({img,id,name})}>
                 <Link to={"/event/" +id }className="card p-2">
                     <img className="task-img" src={img} alt=""/>
-                    <h4 className="text-center text-white pb-4 bg-primary">{name}</h4>
+                    <h4  style={{background:props.color}}className="text-center text-white pb-4 bg-primary">{name}</h4>
                 </Link>   
 
             </div>
